@@ -7,13 +7,15 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Pomodoro | TzMik</title>
-        <meta name="description" content="Application to register your daily pomodoros" />
+        <meta name="description" content="Aplicación para registrar tus pomodoros diarios" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Pomodoro
+          <span className="pomodoro-text">
+            Pomodoro
+          </span>
         </h1>
       </main>
 
